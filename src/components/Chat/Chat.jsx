@@ -1,9 +1,9 @@
 // Chat.jsx
 import { useEffect, useState } from 'react';
 import { Paper } from '@mui/material';
-import sendImage from './assets/send_32x32.svg';
-import AiTyping from './AiTyping';
-import Messages from './Messages';
+import sendImage from '../../assets/send_32x32.svg';
+import AiTyping from './AiTyping/AiTyping';
+import Messages from './Messages/Messages';
 
 // Import CSS classes
 import './Chat.css';

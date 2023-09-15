@@ -1,6 +1,6 @@
 // App.jsx
-import Chat from './Chat';
-import ChatList from './ChatList';
+import Chat from './components/Chat/Chat';
+import ChatList from './components/ChatList/ChatList';
 import './App.css';
 
 function App() {
