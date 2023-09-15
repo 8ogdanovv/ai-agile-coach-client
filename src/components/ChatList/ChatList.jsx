@@ -4,7 +4,7 @@ import './ChatList.css';
 function ChatList() {
   return (
     <div className='chatList'>
-      <h1>Agile</h1>
+      <h1 className='title'>Agile</h1>
 
       <ul>
         <li>
