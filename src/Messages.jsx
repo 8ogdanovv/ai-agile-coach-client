@@ -5,7 +5,7 @@ function Messages() {
   return (
     <ul className="messages">
       {/* <Message author={'ai'} /> */}
-      <Message author={'client'} />
+      {/* <Message author={'client'} /> */}
       <Message author={'ai'} />
       <Message author={'client'} />
     </ul>

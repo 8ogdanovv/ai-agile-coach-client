@@ -1,7 +1,7 @@
 .message {
   display: flex;
-  /* width: 680px; */
-  /* height: 116px; */
+  width: 680px;
+  height: 116px;
   padding: 25px 44px;
   justify-content: center;
   align-items: center;
@@ -9,19 +9,36 @@
 }
 
 .message-wrapper {
-  /* width: 703.981px; */
-  /* height: 123.72px; */
   padding-bottom: 8px;
   margin: 1rem;
+  position: relative;
 }
 
 .message-wrapper.right {
+  align-self: flex-end;
   padding-right: 24px;
-
+}
+.message-wrapper.left {
+  align-self: start;
+  padding-left: 24px;
 }
 
-.message-wrapper.left {
-  padding-left: 24px;
+.tail {
+  width: 64px;
+  height: 44px;
+}
+
+.message-wrapper.left .tail,
+.message-wrapper.right .tail {
+  position: absolute;
+  bottom: 0;
+}
+
+.message-wrapper.left .tail {
+  left: 0;
+}
+.message-wrapper.right .tail {
+  right: 0;
 }
 
 .client {

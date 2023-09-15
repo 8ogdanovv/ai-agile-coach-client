@@ -3,4 +3,12 @@
   padding: 54px 40px 184px;
   overflow: hidden;
   max-width: 80dvw;
+
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
