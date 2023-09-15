@@ -1,0 +1,45 @@
+/* AiTyping.css */
+
+.ai-typing {
+  display: flex;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.dot1
+{
+  animation: typing 1s steps(2, end) infinite;
+}
+
+.dot2
+{
+  animation: typing 1s steps(2, end) infinite;
+  animation-delay: 250ms;
+}
+
+.dot3 {
+  animation: typing 1s steps(2, end) infinite;
+  animation-delay: 500ms;
+}
+
+.dot1,
+.dot2,
+.dot3 {
+  display: inline;
+  opacity: 0;
+}
+
+@keyframes typing {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

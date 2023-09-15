@@ -1,0 +1,6 @@
+.messages {
+  height: calc(100vh - 86px - 54px - 184px);
+  padding: 54px 40px 184px;
+  overflow: hidden;
+  max-width: 80dvw;
+}
